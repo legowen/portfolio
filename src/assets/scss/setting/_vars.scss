@@ -1,0 +1,45 @@
+// Vars
+:root {
+    // 컬러 셋팅
+    --black: #000;
+    --black100: #222;
+    --black200: #555;
+    --black300: #ccc;
+    --black400: #fafafa;
+  
+    --white: #fff;
+  
+    --subColorSkyBlue: #47a4ff;
+    --subColorSkyBlue100: #d5eaff;
+    --subColorPurple: #a968ff;
+  
+    // 폰트 셋팅
+    --mainfont-playfairDisplay: "PlayfairDisplay";
+  
+    // 폰트 사이즈 셋팅
+    font-size: 16px;
+  
+    // 폰트 최적화
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  
+    // 폰트 반응형
+    @media only screen and (max-width: 1000px) {
+      font-size: 14px;
+    }
+  
+    @media only screen and (max-width: 800px) {
+      font-size: 13px;
+    }
+  
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+    }
+  
+    @media only screen and (max-width: 400px) {
+      font-size: 11px;
+    }
+  }

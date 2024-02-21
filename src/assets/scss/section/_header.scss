@@ -1,0 +1,78 @@
+// Header
+#Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    width: 100%;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--white);
+  
+    z-index: 1;
+  }
+  
+  .header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .logo {
+      width: 120px;
+  
+      img {
+        width: 120px;
+      }
+    }
+  
+    .header_navigation {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+  
+        li:hover {
+          color: var(--subColorPurple);
+        }
+      }
+  
+      button {
+        display: none;
+  
+        width: 30px;
+        height: 30px;
+  
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  
+  // Header 반응형
+  @media only screen and (max-width: 700px) {
+    .header_info {
+      .logo {
+        width: 100px;
+  
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .header_info {
+      .header_navigation {
+        ul {
+          display: none;
+        }
+  
+        button {
+          display: block;
+        }
+      }
+    }
+  }
