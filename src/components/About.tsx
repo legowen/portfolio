@@ -25,33 +25,33 @@ const about = [
   },
   {
     src: about_calendar,
-    alt: "생년월일 아이콘",
-    title: "생년월일",
+    alt: "birth icon",
+    title: "Date of birth",
     text: "1993.04.26"
-  },
+  }, // Education
   {
     src: about_location,
-    alt: "주소 아이콘",
-    title: "주소",
-    text: "인천광역시 남구"
+    alt: "address icon",
+    title: "Located in",
+    text: "Vancouver, BC, Canada"
   },
   {
     src: about_phone,
-    alt: "연락처 아이콘",
-    title: "연락처",
-    text: "010-7420-3477"
+    alt: "contact icon",
+    title: "contact",
+    text: "7788823579"
   },
   {
     src: about_email,
-    alt: "이메일 아이콘",
-    title: "이메일",
-    text: "hsy742010@naver.com"
+    alt: "email icon",
+    title: "Email",
+    text: "owen.sykim@gmail.com"
   },
   {
     src: about_computer,
-    alt: "경력 아이콘",
-    title: "경력",
-    text: "퍼블리셔 10개월"
+    alt: "computer icon",
+    title: "Operating System",
+    text: "MacOS"
   }
 ]
 

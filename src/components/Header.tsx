@@ -1,9 +1,9 @@
 import React from "react";
 
-// 데이터
+// Data
 import { navigation_List } from "../assets/datas/header";
 
-// 이미지
+// Image
 import logo_icon from "../assets/img/header/logo_icon.svg";
 import fullMenu_icon from "../assets/img/header/fullMenu_icon.svg";
 
@@ -17,7 +17,7 @@ const Header = ({ setFullMenuState }: Props) => {
       <div className="wrapper">
         <div className="header_info">
           <a href="#HOME" className="logo">
-            <img src={logo_icon} alt="로고 아이콘" />
+            <img src={logo_icon} alt="logo icon" />
           </a>
 
           <div className="header_navigation">
@@ -30,7 +30,7 @@ const Header = ({ setFullMenuState }: Props) => {
             </ul>
 
             <button onClick={() => setFullMenuState(true)}>
-              <img src={fullMenu_icon} alt="전체메뉴 아이콘"></img>
+              <img src={fullMenu_icon} alt="menu icon"></img>
             </button>
           </div>
         </div>

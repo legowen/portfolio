@@ -76,7 +76,7 @@
     opacity: 1;
   }
   
-  // 애니메이션
+  // animation
   @keyframes titleIconAnimation {
     0%{
       transform: rotate(0deg);
@@ -107,7 +107,7 @@
     }
   }
   
-  // About 반응형
+  // responsive
   @media only screen and (max-width: 900px) {
     #ABOUT {
       .about_info {

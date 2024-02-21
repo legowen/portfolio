@@ -1,17 +1,17 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-// 데이터
+// Data
 import { home_Text } from "../assets/datas/home";
 
-// 이미지
+// Image
 import mouse_icon from "../assets/img/home/mouse_icon.svg";
 
 const Home = () => {
-  // 현재 스크롤 Y값 useState
+  // Current Scroll Y Value w useState
   const [position, setPosition] = useState<number>(0);
 
-  // 텍스트 타이핑 useState
+  // Text Typing useState
   const [text, setText] = useState<string>("");
   const [textCount, setTextCount] = useState<number>(0);
 
@@ -26,7 +26,7 @@ const Home = () => {
     }, 200);
   };
 
-  // 현재 스크롤 Y값 useEffect
+  // UseEffect for Current Scroll Y Value
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
 
@@ -35,7 +35,7 @@ const Home = () => {
     };
   }, []);
 
-  // 텍스트 타이핑 useEffect
+  // Text Typing useEffect
   useEffect(() => {
     const text_Interval = text_Typing();
 
@@ -57,7 +57,7 @@ const Home = () => {
       </div>
 
       <a href="#ABOUT">
-        <img src={mouse_icon} alt="마우스 아이콘" />
+        <img src={mouse_icon} alt="Mouse Icon" />
       </a>
     </div>
   );

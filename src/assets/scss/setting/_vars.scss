@@ -1,6 +1,6 @@
 // Vars
 :root {
-    // 컬러 셋팅
+    // Colour set
     --black: #000;
     --black100: #222;
     --black200: #555;
@@ -13,20 +13,20 @@
     --subColorSkyBlue100: #d5eaff;
     --subColorPurple: #a968ff;
   
-    // 폰트 셋팅
+    // font set
     --mainfont-playfairDisplay: "PlayfairDisplay";
   
-    // 폰트 사이즈 셋팅
+    // font size set
     font-size: 16px;
   
-    // 폰트 최적화
+    // Optimize font
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
   
-    // 폰트 반응형
+    // responsive font
     @media only screen and (max-width: 1000px) {
       font-size: 14px;
     }

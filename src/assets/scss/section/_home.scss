@@ -49,7 +49,7 @@
     }
   }
   
-  // 애니메이션
+  // animation
   @keyframes homeIconAnimation {
     0% {
       bottom: 2rem;
@@ -64,7 +64,7 @@
     }
   }
   
-  // Home 반응형
+  // responsive
   @media only screen and (max-width: 900px) {
     #HOME {
       .home_info {

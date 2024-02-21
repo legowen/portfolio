@@ -19,77 +19,77 @@ import node_icon from "../img/skill/node_js_icon.svg";
 export let skill_List: { src: string; alt: string; name: string }[] = [
   {
     src: html_icon,
-    alt: "HTML 아이콘",
+    alt: "HTML icon",
     name: "HTML",
   },
   {
     src: css_icon,
-    alt: "CSS 아이콘",
+    alt: "CSS icon",
     name: "CSS",
   },
   {
     src: javascript_icon,
-    alt: "JavaScript 아이콘",
+    alt: "JavaScript icon",
     name: "JavaScript",
   },
   {
     src: typescript_icon,
-    alt: "TypeScript 아이콘",
+    alt: "TypeScript icon",
     name: "TypeScript",
   },
   {
     src: react_icon,
-    alt: "React 아이콘",
+    alt: "React icon",
     name: "React",
   },
   {
     src: redux_icon,
-    alt: "Redux 아이콘",
+    alt: "Redux icon",
     name: "Redux",
   },
   {
     src: react_query_icon,
-    alt: "React Query 아이콘",
+    alt: "React Query icon",
     name: "React Query",
   },
   {
     src: axios_icon,
-    alt: "Axios 아이콘",
+    alt: "Axios icon",
     name: "Axios",
   },
   {
     src: sass_scss_icon,
-    alt: "Sass(SCSS) 아이콘",
+    alt: "Sass(SCSS) icon",
     name: "Sass(SCSS)",
   },
   {
     src: styled_component_icon,
-    alt: "Styled-Component 아이콘",
+    alt: "Styled-Component icon",
     name: "Styled-Component",
   },
   {
     src: bootstrap_icon,
-    alt: "Bootstrap 아이콘",
+    alt: "Bootstrap icon",
     name: "Bootstrap",
   },
   {
     src: tailwind_icon,
-    alt: "Tailwind 아이콘",
+    alt: "Tailwind icon",
     name: "Tailwind",
   },
   {
     src: git_icon,
-    alt: "Git 아이콘",
+    alt: "Git icon",
     name: "Git",
   },
   {
     src: github_icon,
-    alt: "GitHub 아이콘",
+    alt: "GitHub icon",
     name: "GitHub",
   },
   {
     src: node_icon,
-    alt: "Node 아이콘",
+    alt: "Node icon",
     name: "Node",
   },
 ];

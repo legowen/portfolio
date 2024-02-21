@@ -1,9 +1,9 @@
 import React from "react";
 
-// 데이터
+// Data
 import { project_List } from "../assets/datas/project";
 
-// 이미지
+// Image
 import project_title_icon from "../assets/img/project/project_title_icon.svg";
 
 interface Props {
@@ -22,8 +22,8 @@ const Project = ({ scrollRef }: Props) => {
     >
       <div className="wrapper">
         <div className="project_title">
-          <img src={project_title_icon} alt="project 타이틀 이미지" />
-          <h2>Project</h2>
+          <img src={project_title_icon} alt="project title image" />
+          <h2>Projects</h2>
         </div>
 
         <ul className="project_list">
@@ -45,10 +45,10 @@ const Project = ({ scrollRef }: Props) => {
 
               <div className="project_link">
                 <a href={item.siteLink} target="_blank">
-                  사이트 바로가기
+                  Visit Website
                 </a>
                 <a href={item.codeLink} target="_blank">
-                  코드 보러가기
+                  View Code
                 </a>
               </div>
             </li>

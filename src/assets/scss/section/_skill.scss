@@ -67,7 +67,7 @@
     opacity: 1;
   }
   
-  // 애니메이션
+  // animation
   @keyframes titleIconAnimation {
     0%{
       transform: rotate(0deg);
@@ -98,7 +98,7 @@
     }
   }
   
-  // Skill 반응형
+  // responsive
   @media only screen and (max-width: 900px) {
     #SKILL {
       .skill_info {

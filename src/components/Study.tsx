@@ -21,17 +21,17 @@ const Study = ({ scrollRef }: Props) => {
     >
       <div className="wrapper">
         <div className="study_title">
-          <img src={study_title_icon} alt="Study 타이틀 이미지" />
+          <img src={study_title_icon} alt="Study Title Image" />
           <h2>Study</h2>
         </div>
 
         <div className="study_info">
-          <a href="https://github.com/Yun7420" target="_blank">
+          <a href="https://github.com/legowen" target="_blank">
             <div>
               <h3>Github</h3>
-              <p>레파지토리 활용하여 소스코드를 관리합니다.</p>
+              <p>Managing the source code using a repository.</p>
             </div>
-            <img src={github_icon} alt="깃허브 아이콘" />
+            <img src={github_icon} alt="Github Icon" />
           </a>
         </div>
       </div>
