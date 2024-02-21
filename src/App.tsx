@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 
-// Top 컴포넌트
+// Top Component
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,17 +10,17 @@ import Project from "./components/Project";
 import Study from "./components/Study";
 import Footer from "./components/Footer";
 
-// Bottom 컴포넌트
+// Bottom Component
 import FullMenu from "./components/FullMenu";
 
 function App() {
-  // 전체메뉴 useState (Header, FullMenu)
+  // Menu useState (Header, FullMenu)
   const [fullMenustate, setFullMenuState] = useState<boolean>(false);
 
-  // 스크롤 useRef (About, Skill, Project)
+  // Scroll useRef (About, Skill, Project)
   const scrollRef = useRef<HTMLDivElement[]>([]);
 
-  // 스크롤 (About, Skill, Project 추적 및 클래스 추가)
+  // Scroll (Track About, Skill, Project and add classes)
   useEffect(() => {
     const observer = new IntersectionObserver((e) => {
       e.forEach((item) => {

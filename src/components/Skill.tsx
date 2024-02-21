@@ -22,8 +22,8 @@ const Skill = ({ scrollRef }: Props) => {
     >
       <div className="wrapper">
         <div className="skill_title">
-          <img src={skill_title_icon} alt="Skill 타이틀 이미지" />
-          <h2>Skill</h2>
+          <img src={skill_title_icon} alt="Skill Title Image" />
+          <h2>Skills</h2>
         </div>
 
         <div className="skill_info">

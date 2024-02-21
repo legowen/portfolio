@@ -1,9 +1,9 @@
 import React from "react";
 
-// 데이타
+// Data
 import { navigation_List } from "../assets/datas/header";
 
-// 이미지
+// Image
 import close_icon from "../assets/img/fullmenu/close_icon.svg";
 
 interface Props {
@@ -21,7 +21,7 @@ const FullMenu = (props: Props) => {
           </li>
         ))}
       </ul>
-      <img className="close" onClick={() => props.setFullMenuState(false)} src={close_icon} alt="닫기 아이콘" />
+      <img className="close" onClick={() => props.setFullMenuState(false)} src={close_icon} alt="closed icon" />
     </div>
   );
 };
