@@ -1,0 +1,128 @@
+// Study
+#STUDY {
+    margin-top: 5rem;
+  
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s;
+  
+    .study_title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+  
+      img {
+        width: 30px;
+        height: 30px;
+  
+        transform: rotate(0deg);
+        animation: titleIconAnimation 3s 1s ease-in-out infinite;
+      }
+  
+      h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: var(--mainfont-playfairDisplay);
+      }
+    }
+  
+    .study_info {
+      margin-top: 2rem;
+  
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+  
+      a {
+        flex: 1;
+  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+  
+        padding: 2rem;
+        background-color: var(--black400);
+        border-radius: 1rem;
+  
+        div {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+  
+          h3 {
+            font-weight: bolder;
+            color: var(--subColorPurple300);
+          }
+        }
+  
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+  }
+  
+  #STUDY.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  
+  // 애니메이션
+  @keyframes titleIconAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(45deg);
+    }
+    20% {
+      transform: rotate(-45deg);
+    }
+    30% {
+      transform: rotate(30deg);
+    }
+    40% {
+      transform: rotate(-30deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(-10deg);
+    }
+    70% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  // Study 반응형
+  @media only screen and (max-width: 650px) {
+    #STUDY {
+      .study_title {
+        justify-content: center;
+      }
+  
+      .study_info {
+        flex-direction: column;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    #STUDY {
+      .study_info {
+        a {
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+      }
+    }
+  }

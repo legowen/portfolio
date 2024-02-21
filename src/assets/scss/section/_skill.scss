@@ -1,0 +1,138 @@
+// Skill
+#SKILL {
+    margin-top: 5rem;
+  
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s;
+  
+    .skill_title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+  
+      img {
+        width: 30px;
+        height: 30px;
+  
+        transform: rotate(0deg);
+        animation: titleIconAnimation 3s 1s ease-in-out infinite;
+      }
+  
+      h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: var(--mainfont-playfairDisplay);
+      }
+    }
+  
+    .skill_info {
+      margin-top: 2rem;
+  
+      ul {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 2rem;
+  
+        li {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.5em;
+  
+          div {
+            padding: 2rem;
+            border: 1px solid var(--black300);
+            border-radius: 1rem;
+            transition: all 0.5s;
+  
+            img {
+              width: 60px;
+              height: 60px;
+            }
+          }
+  
+          div:hover {
+            background-color: var(--subColorSkyBlue100);
+            border: 1px solid var(--subColorSkyBlue100);
+          }
+        }
+      }
+    }
+  }
+  
+  #SKILL.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  
+  // 애니메이션
+  @keyframes titleIconAnimation {
+    0%{
+      transform: rotate(0deg);
+    }
+    10%{
+      transform: rotate(45deg);
+    }
+    20%{
+      transform: rotate(-45deg);
+    }
+    30%{
+      transform: rotate(30deg);
+    }
+    40%{
+      transform: rotate(-30deg);
+    }
+    50%{
+      transform: rotate(10deg);
+    }
+    60%{
+      transform: rotate(-10deg);
+    }
+    70%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(0deg);
+    }
+  }
+  
+  // Skill 반응형
+  @media only screen and (max-width: 900px) {
+    #SKILL {
+      .skill_info {
+        ul {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    #SKILL {
+      .skill_title {
+        justify-content: center;
+      }
+  
+      .skill_info {
+        ul {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    #SKILL {
+      .skill_title {
+        justify-content: center;
+      }
+  
+      .skill_info {
+        ul {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    }
+  }
