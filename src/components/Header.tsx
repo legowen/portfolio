@@ -4,7 +4,7 @@ import React from "react";
 import { navigation_List } from "../assets/datas/header";
 
 // Image
-import logo_icon from "../assets/img/header/logo_icon.svg";
+import logo_icon from "../assets/img/header/logo.png";
 import fullMenu_icon from "../assets/img/header/fullMenu_icon.svg";
 
 interface Props {
@@ -16,8 +16,9 @@ const Header = ({ setFullMenuState }: Props) => {
     <div id="Header">
       <div className="wrapper">
         <div className="header_info">
-          <a href="#HOME" className="logo">
+          <a href="/" className="logo">
             <img src={logo_icon} alt="logo icon" />
+            <span>legowen</span>
           </a>
 
           <div className="header_navigation">

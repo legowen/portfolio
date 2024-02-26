@@ -7,7 +7,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
-import Study from "./components/Study";
+import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 // Bottom Component
@@ -44,7 +44,7 @@ function App() {
       <About scrollRef={scrollRef} />
       <Skill scrollRef={scrollRef} />
       <Project scrollRef={scrollRef} />
-      <Study scrollRef={scrollRef} />
+      <Resume scrollRef={scrollRef} />
       <Footer />
 
       <FullMenu
