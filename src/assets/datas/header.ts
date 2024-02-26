@@ -4,5 +4,5 @@ export let navigation_List: string[] = [
     "ABOUT",
     "SKILL",
     "PROJECT",
-    "STUDY",
+    "RESUME",
   ];

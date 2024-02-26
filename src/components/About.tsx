@@ -6,7 +6,7 @@ import { complete_List } from "../assets/datas/about";
 // Images
 import about_title_icon from "../assets/img/about/about_title_icon.svg";
 import about_user from "../assets/img/about/about_user.svg";
-import about_calendar from "../assets/img/about/about_calendar.svg";
+import about_github from "../assets/img/about/about_github.svg";
 import about_location from "../assets/img/about/about_location.svg";
 import about_phone from "../assets/img/about/about_phone.svg";
 import about_email from "../assets/img/about/about_email.svg";
@@ -23,36 +23,41 @@ const about = [
     title: "Name",
     text: "Owen Kim"
   },
-  {
-    src: about_calendar,
-    alt: "birth icon",
-    title: "Date of birth",
-    text: "1993.04.26"
-  }, // Education
-  {
-    src: about_location,
-    alt: "address icon",
-    title: "Located in",
-    text: "Vancouver, BC, Canada"
-  },
-  {
-    src: about_phone,
-    alt: "contact icon",
-    title: "contact",
-    text: "7788823579"
-  },
+
   {
     src: about_email,
     alt: "email icon",
     title: "Email",
     text: "owen.sykim@gmail.com"
   },
+
+  {
+    src: about_location,
+    alt: "address icon",
+    title: "Located in",
+    text: "Vancouver, BC, Canada"
+  },
+
+  {
+    src: about_phone,
+    alt: "contact icon",
+    title: "contact",
+    text: "+1)7788823579"
+  },
+
   {
     src: about_computer,
     alt: "computer icon",
     title: "Operating System",
     text: "MacOS"
-  }
+  },
+
+  {
+    src: about_github,
+    alt: "github icon",
+    title: "Github",
+    text: "github/legowen"
+  } 
 ]
 
 const About = ({ scrollRef }: Props) => {
