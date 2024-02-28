@@ -52,7 +52,7 @@ const Home = () => {
   return (
     <div id="HOME" style={{ backgroundPositionY: position / 2 }}>
       <div className="home_info">
-        <h1>WEB PORTFOLIO</h1>
+        <h1>A passionate dev, making things right way</h1>
         <p>{text}</p>
       </div>
 

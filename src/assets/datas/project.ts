@@ -51,11 +51,11 @@ export let project_List: {
   {
     src: todolist_project_img,
     alt: "Todolist Project",
-    title: "No_Pressure ToDo Project",
+    title: "JustPlan ToDo Project",
     text: "To-do list created using React.",
     subText: "I've created a UI example to show users using seed data generated and stored in local storage. I've also attempted to make it possible for the local storage data to be updated according to conditions when tasks are added, modified, or deleted. By using the commonly used map and filter in React, I've created a way to display and filter the stored data list.",
     program: ["JavaScript", "React", "Styled Components"],
-    siteLink: "https://nopressuretodolist.netlify.app",
+    siteLink: "https://justplan.netlify.app",
     codeLink: "https://github.com/legowen/todolist",
   },
 

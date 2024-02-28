@@ -1,35 +1,57 @@
 // Footer
 #Footer {
-    margin-top: 5rem;
-  
+  margin-top: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  width: 100%;
+  padding: 3rem;
+  background-color: var(--black);
+  color: var(--white);
+
+  ul {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+  }
+
+  p {
+    text-align: center;
+  }
   
-    width: 100%;
-    padding: 3rem;
-    background-color: var(--black);
-    color: var(--white);
-  
-    ul {
+  // Add motion button styles
+  .motion_top {
+      position: absolute;
+      bottom: 20px;
       display: flex;
-      gap: 2rem;
-    }
-  
-    p {
-      text-align: center;
-    }
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background-color: transparent;
+      color: white;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
   }
-  
-  // responsive
-  @media only screen and (max-width: 500px) {
-    #Footer {
+
+  .motion_top:hover {
+      background-color: var(--zinc-800);
+  }
+}
+
+// responsive
+@media only screen and (max-width: 500px) {
+  #Footer {
       ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.5rem;
       }
-    }
   }
+}

@@ -3,6 +3,7 @@ import React from "react";
 // image
 import resume_title_icon from "../assets/img/resume/resume_title_icon.svg";
 import github_icon from "../assets/img/resume/github_icon.svg";
+import resume_icon from "../assets/img/resume/resume_icon.svg"
 
 
 interface Props {
@@ -38,6 +39,7 @@ const Resume = ({ scrollRef }: Props) => {
               <h3>Resume</h3>
               <p>See Resume</p>
             </div>
+            <img src={resume_icon} alt="resume icon" />
           </a>
         </div>
       </div>
