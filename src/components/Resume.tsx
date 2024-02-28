@@ -34,7 +34,7 @@ const Resume = ({ scrollRef }: Props) => {
             </div>
             <img src={github_icon} alt="github icon" />
           </a>
-          <a href="https://resume.github.io/" target="_blank">
+          <a href="https://legowen.github.io/resume/" target="_blank">
             <div>
               <h3>Resume</h3>
               <p>See Resume</p>
