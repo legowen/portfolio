@@ -1,9 +1,9 @@
 import React from "react";
 
-// 데이터
+// data
 import { skill_List } from "../assets/datas/skill";
 
-// 이미지
+// image
 import skill_title_icon from "../assets/img/skill/skill_title_icon.svg";
 
 interface Props {
