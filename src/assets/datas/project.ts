@@ -29,9 +29,9 @@ export let project_List: {
   },
   {
     src: onhanger_project_img,
-    alt: "Shoppingmall Project Image",
-    title: "Shoppingmall Project",
-    text: "Shopping mall website where you can manage everything from administration to orders.",
+    alt: "OnHanger Project Image",
+    title: "OnHanger Project",
+    text: "OnHanger website where you can manage everything from administration to orders.",
     subText: "",
     program: ["JavaScript", "React", "React Query", "Axios", "MaterialUI", "NodeJS", "MongoDB", "Mongoose", "AWS"],
     siteLink: "https://shoppingmallfe.netlify.app",
@@ -77,7 +77,7 @@ export let project_List: {
     text: "Portfolio website to showcase personal projects.",
     subText: "On the HOME screen, I used the setInterval function to add Text to the State while giving it a typing effect, and I used useEffect to add an addEventListener scroll event to change the background image's position Y value. Each menu is stored in the form of a useRef object and tracked with IntersectionObserver to trigger events when it appears on the screen. Instead of leaving useRef as a simple empty value, I made it an empty array to resolve TypeScript errors. To resolve the MutableRefObject error when passing Ref as Props, I searched for a blog and learned that there are more than three options for Ref's Props.",
     program: ["JavaScript", "TypeScript", "React", "Sass(SCSS)"],
-    siteLink: "https://legowen.github.io/portfolio-2023/",
+    siteLink: "https://legowen.github.io/portfolio/",
     codeLink: "https://github.com/legowen/portfolio",
   },
 ];
