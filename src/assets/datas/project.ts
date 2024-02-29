@@ -34,8 +34,8 @@ export let project_List: {
     text: "OnHanger website where you can manage everything from administration to orders.",
     subText: "",
     program: ["JavaScript", "React", "React Query", "Axios", "MaterialUI", "NodeJS", "MongoDB", "Mongoose", "AWS"],
-    siteLink: "https://shoppingmallfe.netlify.app",
-    codeLink: "https://github.com/legowen/ShoppingmallFE",
+    siteLink: "https://onhanger.netlify.app",
+    codeLink: "https://github.com/legowen/onhangerfe",
   },
   {
     src: weather_project_img,
