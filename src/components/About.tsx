@@ -72,7 +72,7 @@ const About = ({ scrollRef }: Props) => {
     >
       <div className="wrapper">
         <div className="about_title">
-          <img src={about_title_icon} alt="About 타이틀 이미지" />
+          <img src={about_title_icon} alt="About title image" />
           <h2>About</h2>
         </div>
 
