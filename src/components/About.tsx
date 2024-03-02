@@ -8,9 +8,9 @@ import about_title_icon from "../assets/img/about/about_title_icon.svg";
 import about_user from "../assets/img/about/about_user.svg";
 import about_github from "../assets/img/about/about_github.svg";
 import about_location from "../assets/img/about/about_location.svg";
-import about_phone from "../assets/img/about/about_phone.svg";
+import about_language from "../assets/img/about/about_language.svg";
 import about_email from "../assets/img/about/about_email.svg";
-import about_computer from "../assets/img/about/about_computer.svg";
+import about_linkedin from "../assets/img/about/about_linkedin.svg";
 
 interface Props {
   scrollRef: React.MutableRefObject<HTMLDivElement[]>;
@@ -21,46 +21,57 @@ const about = [
     src: about_user,
     alt: "Name Icon",
     title: "Name",
-    text: "Owen Kim"
+    text: "Owen Kim",
+    link: ""
   },
 
   {
     src: about_email,
     alt: "email icon",
     title: "Email",
-    text: "owen.sykim@gmail.com"
+    text: "owen.sykim@gmail.com",
+    link: ""
   },
 
   {
     src: about_location,
     alt: "address icon",
     title: "Located in",
-    text: "Vancouver, BC, Canada"
+    text: "Vancouver, BC, Canada",
+    link: ""
   },
 
   {
-    src: about_phone,
+    src: about_language,
     alt: "contact icon",
-    title: "contact",
-    text: "+1)7788823579"
+    title: "Language",
+    text: "Korean / English",
+    link: ""
   },
 
   {
-    src: about_computer,
+    src: about_linkedin,
     alt: "computer icon",
-    title: "Operating System",
-    text: "MacOS"
+    title: "Linkdin",
+    text: "See Owen's Linkedin",
+    link: "https://www.linkedin.com/in/seongyeong-owen-kim-8a06651b8/"
   },
 
   {
     src: about_github,
     alt: "github icon",
     title: "Github",
-    text: "github/legowen"
+    text: "/legowen",
+    link: "https://github.com/legowen"
   } 
 ]
 
 const About = ({ scrollRef }: Props) => {
+
+  const handleLinkClick = (url: string) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <div
       id="ABOUT"
@@ -79,7 +90,7 @@ const About = ({ scrollRef }: Props) => {
         <div className="about_info">
           <ul>
             {about.map((item) => (
-              <li>
+              <li key={item.title} onClick={() => item.title === "Linkdin" || item.title === "Github" ? handleLinkClick(item.link) : null}>
                 <img src={item.src} alt={item.alt}/>
                 <div>
                   <h2>{item.title}</h2>
