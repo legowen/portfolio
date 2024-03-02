@@ -8,7 +8,7 @@ import sass_scss_icon from "../img/skill/sass_scss_icon.svg";
 import bootstrap_icon from "../img/skill/bootstrap_icon.svg";
 import mui_icon from "../img/skill/mui_icon.svg";
 import tailwind_icon from "../img/skill/tailwind_icon.svg";
-import github_icon from "../img/skill/github_icon.svg";
+import git_icon from "../img/skill/git_icon.svg";
 import node_icon from "../img/skill/node_js_icon.svg";
 import mongodb_icon from "../img/skill/mongodb_icon.svg";
 
@@ -68,12 +68,6 @@ export let skill_List: { src: string; alt: string; name: string }[] = [
   },
 
   {
-    src: github_icon,
-    alt: "GitHub icon",
-    name: "GitHub",
-  },
-
-  {
     src: node_icon,
     alt: "Node icon",
     name: "Node",
@@ -84,4 +78,11 @@ export let skill_List: { src: string; alt: string; name: string }[] = [
     alt: "MongoDB icon",
     name: "MongoDB",
   },
+
+  {
+    src: git_icon,
+    alt: "Git icon",
+    name: "Git",
+  },
+
 ];
