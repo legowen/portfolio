@@ -30,7 +30,7 @@ export let project_List: {
   {
     src: onhanger_project_img,
     alt: "OnHanger Project Image",
-    title: "OnHanger Project",
+    title: "OnHanger Project (Under development)",
     text: "Onhanger is an online clothing ecommerce project. Users can sign up, including via Google email. It encompasses all functions from selecting a product, viewing details on the detail page, to adding to cart, doing payment and completing orders. Admins can add and manage clothes, as well as view order statuses.",
     subText: "",
     program: ["JavaScript", "React", "React Query", "Axios", "MaterialUI", "NodeJS", "MongoDB", "Mongoose"],
