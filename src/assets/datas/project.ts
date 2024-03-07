@@ -16,6 +16,7 @@ export let project_List: {
   program: string[];
   siteLink: string;
   codeLink: string;
+  subcodeLink: string;
 }[] = [
   {
     src: moviedb_project_img,
@@ -26,6 +27,7 @@ export let project_List: {
     program: ["JavaScript", "React", "React Query", "Axios", "Bootstrap"],
     siteLink: "https://dbmoviesinfo.netlify.app",
     codeLink: "https://github.com/legowen/movieinfo-react-query",
+    subcodeLink: "",
   },
   {
     src: onhanger_project_img,
@@ -36,6 +38,7 @@ export let project_List: {
     program: ["JavaScript", "React", "React Query", "Axios", "MaterialUI", "NodeJS", "MongoDB", "Mongoose"],
     siteLink: "https://onhanger.netlify.app",
     codeLink: "https://github.com/legowen/onhangerfe",
+    subcodeLink: "https://github.com/legowen/onhangerbe",
   },
   {
     src: weather_project_img,
@@ -46,6 +49,7 @@ export let project_List: {
     program: ["JavaScript", "React", "Redux", "Sass(SCSS)"],
     siteLink: "https://hopenorain.netlify.app",
     codeLink: "https://github.com/legowen/weather_app",
+    subcodeLink: "",
   },
 
   {
@@ -57,6 +61,7 @@ export let project_List: {
     program: ["JavaScript", "React", "Styled Components"],
     siteLink: "https://justplan.netlify.app",
     codeLink: "https://github.com/legowen/todolist",
+    subcodeLink: "",
   },
 
   {
@@ -68,6 +73,7 @@ export let project_List: {
     program: ["JavaScript", "TypeScript", "React", "CSS"],
     siteLink: "https://airoshambo.netlify.app",
     codeLink: "https://github.com/legowen/roshamboTsx",
+    subcodeLink: "",
   },
   
   {
@@ -79,5 +85,6 @@ export let project_List: {
     program: ["JavaScript", "TypeScript", "React", "Sass(SCSS)"],
     siteLink: "https://legowen.github.io/portfolio/",
     codeLink: "https://github.com/legowen/portfolio",
+    subcodeLink: "",
   },
 ];

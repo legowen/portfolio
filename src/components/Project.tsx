@@ -35,7 +35,10 @@ const Project = ({ scrollRef }: Props) => {
 
               <div className="project_info">
                 <h3>{item.title}</h3>
-                <p>{item.text} <br />{item.subText}</p>
+                <p>
+                  {item.text} <br />
+                  {item.subText}
+                </p>
                 <div className="project_skill">
                   {item.program.map((item) => (
                     <div>{item}</div>
@@ -50,6 +53,11 @@ const Project = ({ scrollRef }: Props) => {
                 <a href={item.codeLink} target="_blank">
                   View Code
                 </a>
+                {item.subcodeLink && ( 
+                  <a href={item.subcodeLink} target="_blank">
+                    View BE Code
+                  </a>
+                )}
               </div>
             </li>
           ))}
