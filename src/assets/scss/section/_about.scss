@@ -28,6 +28,8 @@
   
     .about_info {
       margin-top: 2rem;
+
+      cursor: pointer;
   
       ul {
         display: grid;
@@ -64,6 +66,14 @@
   
             p {
               color: var(--black200);
+            }
+
+            h2:hover {
+              color: var(--subColorPurple);
+            }
+
+            p:hover {
+              color: var(--subColorPurple);
             }
           }
         }
