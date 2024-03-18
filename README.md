@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio (Legowen)
 
 * Demo: https://legowen.github.io/portfolio/
 <br>
@@ -14,3 +14,4 @@
 
 ## Function
 * See All Project
+* Resume
